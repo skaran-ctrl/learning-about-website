@@ -1,0 +1,11 @@
+number<INPUT TYPE="text" id="number"><br>
+    square<INPUT TYPE="text" id="square"><br>
+        <INPUT TYPE="button" value="show" onclick="calcsquare()">
+            <script>
+                function calcsquare()
+                {
+                    var n=document.getElementById("number").value;
+                    var s=n*n;
+                    document.getElementById("square").value=s;
+                }
+            </script>
